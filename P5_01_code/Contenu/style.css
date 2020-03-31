@@ -1,0 +1,113 @@
+/* ---------------------------------------------------------------------------------------
+                                THOREL Benjamin - Projet 5
+------------------------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------------------
+
+                                        Header
+
+------------------------------------------------------------------------------------------*/
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('');
+  background-position: contain;
+  background-repeat: no-repeat;
+}
+
+/* ---------------------------------------------------------------------------------------
+
+                                        Menu
+
+------------------------------------------------------------------------------------------*/
+
+li {
+    list-style-type: none;
+    display: inline;
+    text-decoration: none;
+    padding : 0px 3px 0px 3px;
+}
+
+a {
+    text-decoration: none; 
+}
+
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    transition: all 0.45;
+}
+
+/* ---------------------------------------------------------------------------------------
+
+                                        Body
+
+------------------------------------------------------------------------------------------*/
+
+#contenu {
+    padding-bottom: 50px;
+}
+
+#block_contact {
+    margin-top: 7%;
+}
+
+.responsiveCal {
+ 
+position: relative; margin-top: 5%; padding-bottom: 25%; height: 0; overflow: hidden;
+ 
+}
+ 
+.responsiveCal iframe {
+ 
+position: absolute; top:0; left: 0; width: 100%; height: 100%;
+ 
+}
+
+#nbchar { 
+    height: 230px;
+    overflow : hidden; /*permet de masquer si ça dépasse*/
+    text-overflow : ellipsis; /*permet de rajouter ... si ça dépasse*/
+}
+
+#image_jeux {
+    width: 225px;
+    height: 270px;
+}
+
+#image_jeu {
+    width: 350px;
+    height: 350px;
+}
+
+.img-admin-jeu {
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.text_couper{
+    height: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+
+.p-5 {
+    padding: 3rem;
+}
+
+#border_connexion{
+    margin-top: 10%;
+    padding: 75px 75px 75px 75px;
+    width: 25%
+}
